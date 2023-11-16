@@ -9,7 +9,7 @@ import org.jsoup.nodes.Element
 
 class CimaNow : MainAPI() {
     override var lang = "ar"
-    override var mainUrl = "https://cimanow.cc"
+    override var mainUrl = "https://cimanow.cc/home/"
     override var name = "CimaNow"
     override val usesWebView = false
     override val hasMainPage = true
